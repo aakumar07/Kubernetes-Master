@@ -66,6 +66,7 @@ Run the following command to create the EKS cluster control plane:
 eksctl create cluster \
 --name eks-cluster-1 \
 --version 1.29 \
+--region us-east-1 \
 --zones=us-east-1a,us-east-1b,us-east-1c \
 --without-nodegroup
 ```
